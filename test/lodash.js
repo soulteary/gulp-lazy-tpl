@@ -12,7 +12,7 @@ describe('lodash Template', function() {
 
         stream.on('data', function(file) {
             var finalContent = file.contents.toString().trim().replace(/\n/g, '');
-            var expectContent = '/* global define */define(function () {    \'use strict\';return function (obj) {obj || (obj = {});var __t, __p = \'\', __e = _.escape;with (obj) {__p += \'hello \' +((__t = ( user )) == null ? \'\' : __t) +\'!\';}return __p}});';
+            var expectContent = '/* global define */define(function () {    \'use strict\';return function (obj) {obj || (obj = {});var __t, __p = \'\';with (obj) {__p += \'hello \' +((__t = ( user )) == null ? \'\' : __t) +\'!\';}return __p}});';
             finalContent.should.equal(expectContent);
         });
 

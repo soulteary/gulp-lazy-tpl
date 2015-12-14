@@ -2,7 +2,7 @@
   "name": "gulp-lazy-tpl",
   "description": "模板构建工具。",
   "author": "soulteary",
-  "version": "0.0.7",
+  "version": "0.0.8",
   "scripts": {
     "test": "istanbul cover node_modules/mocha/bin/_mocha -- --recursive test -R spec -r should && cat ./coverage/lcov.info | ./node_modules/coveralls/bin/coveralls.js"
   },
@@ -11,15 +11,15 @@
   },
   "dependencies": {
     "dot": "1.0.3",
-    "gulp-util": "3.0.6",
-    "lodash": "3.10.0",
-    "through2": "0.6.5"
+    "gulp-util": "^3.0.6",
+    "lodash": "^3.10.0",
+    "through2": "^0.6.5"
   },
   "devDependencies": {
-    "coveralls": "2.11.2",
-    "istanbul": "0.3.16",
-    "mocha": "2.2.5",
-    "should": "7.0.1"
+    "coveralls": "^2.11.2",
+    "istanbul": "^0.3.16",
+    "mocha": "^2.2.5",
+    "should": "^7.0.1"
   },
   "license": "MIT"
 }

@@ -12,7 +12,7 @@
   "dependencies": {
     "dot": "1.0.3",
     "gulp-util": "^3.0.6",
-    "lodash": "^3.10.0",
+    "lodash": "^4.17.12",
     "through2": "^0.6.5"
   },
   "devDependencies": {
